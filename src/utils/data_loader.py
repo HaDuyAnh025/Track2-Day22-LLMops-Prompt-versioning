@@ -50,20 +50,44 @@ def split_text(text: str, chunk_size: int = 500, chunk_overlap: int = 50) -> lis
     return splitter.split_text(text)
 
 
-def build_vectorstore(chunks: list, embeddings):
+def build_vectorstore(chunks: list, embeddings, batch_size: int = 20):
     """
     Tạo FAISS vectorstore từ danh sách chunks và embeddings.
+
+    Embed theo từng batch nhỏ với retry/backoff để tránh vượt quota
+    free-tier (vd. Gemini giới hạn ~100 embedding request/phút).
 
     Args:
         chunks    : list[str] — danh sách text chunks đã chia
         embeddings: Embeddings instance (từ get_embeddings())
+        batch_size: số chunks embed mỗi lần gọi API
 
     Returns:
         FAISS vectorstore đã được index và sẵn sàng dùng để retrieve
     """
+    import time
     from langchain_community.vectorstores import FAISS
 
     print(f"🔨 Đang tạo FAISS index từ {len(chunks)} chunks ...")
-    vectorstore = FAISS.from_texts(chunks, embeddings)
+
+    vectorstore = None
+    for start in range(0, len(chunks), batch_size):
+        batch = chunks[start:start + batch_size]
+
+        for attempt in range(5):
+            try:
+                if vectorstore is None:
+                    vectorstore = FAISS.from_texts(batch, embeddings)
+                else:
+                    vectorstore.add_texts(batch)
+                break
+            except Exception as e:
+                wait = 20 * (attempt + 1)
+                print(f"  ⚠️  Lỗi embedding batch (thử {attempt + 1}/5): {e}")
+                print(f"      Chờ {wait}s rồi thử lại...")
+                time.sleep(wait)
+        else:
+            raise RuntimeError(f"Không thể embed batch bắt đầu tại chunk {start} sau 5 lần thử.")
+
     print("✅ FAISS vectorstore đã sẵn sàng.")
     return vectorstore

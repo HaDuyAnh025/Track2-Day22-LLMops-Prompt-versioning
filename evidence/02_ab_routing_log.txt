@@ -1,0 +1,372 @@
+Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-3.5-flash-lite
+Please retry in 47.231801791s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-3.5-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, retry_delay {
+  seconds: 47
+}
+].
+Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 4 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-3.5-flash-lite
+Please retry in 45.140708955s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-3.5-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, retry_delay {
+  seconds: 45
+}
+].
+Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 8 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-3.5-flash-lite
+Please retry in 41.051960777s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-3.5-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, retry_delay {
+  seconds: 41
+}
+].
+Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 16 seconds as it raised RetryError: Timeout of 600.0s exceeded, last exception: 503 failed to connect to all addresses; last error: UNAVAILABLE: ipv4:172.217.119.4:443: WSAGetOverlappedResult: Network is unreachable (A socket operation was attempted to an unreachable network.
+ -- 10051).
+Failed to refresh cache entry haduyanh-day22-rag-v1: Connection error caused failure to GET /commits/-/haduyanh-day22-rag-v1/latest in LangSmith API. Please confirm your internet connection. ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\'api.smith.langchain.com\', port=443): Max retries exceeded with url: /commits/-/haduyanh-day22-rag-v1/latest (Caused by NameResolutionError("HTTPSConnection(host=\'api.smith.langchain.com\', port=443): Failed to resolve \'api.smith.langchain.com\' ([Errno 11001] getaddrinfo failed)"))'))
+Content-Length: None
+API Key: lsv2_********************************************28
+Failed to refresh cache entry haduyanh-day22-rag-v2: Connection error caused failure to GET /commits/-/haduyanh-day22-rag-v2/latest in LangSmith API. Please confirm your internet connection. ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\'api.smith.langchain.com\', port=443): Max retries exceeded with url: /commits/-/haduyanh-day22-rag-v2/latest (Caused by NameResolutionError("HTTPSConnection(host=\'api.smith.langchain.com\', port=443): Failed to resolve \'api.smith.langchain.com\' ([Errno 11001] getaddrinfo failed)"))'))
+Content-Length: None
+API Key: lsv2_********************************************28
+Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-3.5-flash-lite
+Please retry in 17.317818417s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-3.5-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, retry_delay {
+  seconds: 17
+}
+].
+Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 4 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-3.5-flash-lite
+Please retry in 15.210047171s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-3.5-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, retry_delay {
+  seconds: 15
+}
+].
+Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 8 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-3.5-flash-lite
+Please retry in 11.106251887s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-3.5-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, retry_delay {
+  seconds: 11
+}
+].
+Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 16 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-3.5-flash-lite
+Please retry in 3.009696257s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-3.5-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, retry_delay {
+  seconds: 3
+}
+].
+Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 32 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-3.5-flash-lite
+Please retry in 46.909618029s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-3.5-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, retry_delay {
+  seconds: 46
+}
+].
+Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-3.5-flash-lite
+Please retry in 49.062980888s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-3.5-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, retry_delay {
+  seconds: 49
+}
+].
+Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 4 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-3.5-flash-lite
+Please retry in 46.96981658s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-3.5-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, retry_delay {
+  seconds: 46
+}
+].
+Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 8 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-3.5-flash-lite
+Please retry in 42.87209575s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-3.5-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, retry_delay {
+  seconds: 42
+}
+].
+============================================================
+  Bước 2: Prompt Hub & A/B Routing
+============================================================
+✅ Config OK  |  Provider: GEMINI  |  Project: local-dev
+✅ Đã push V1 → https://smith.langchain.com/prompts/haduyanh-day22-rag-v1/154afef6?organizationId=6d37c920-456a-44f5-9107-4ae3b6771516
+✅ Đã push V2 → https://smith.langchain.com/prompts/haduyanh-day22-rag-v2/a14e26e4?organizationId=6d37c920-456a-44f5-9107-4ae3b6771516
+↓ Đã pull 'haduyanh-day22-rag-v1' từ Hub
+↓ Đã pull 'haduyanh-day22-rag-v2' từ Hub
+🔨 Đang tạo FAISS index từ 107 chunks ...
+  ⚠️  Lỗi embedding batch (thử 1/5): Error embedding content: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/embed_content_free_tier_requests, limit: 100, model: gemini-embedding-1.0
+Please retry in 13.2926851s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/embed_content_free_tier_requests"
+  quota_id: "EmbedContentRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-embedding-1.0"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 100
+}
+, retry_delay {
+  seconds: 13
+}
+]
+      Chờ 20s rồi thử lại...
+  ⚠️  Lỗi embedding batch (thử 2/5): Error embedding content: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/embed_content_free_tier_requests, limit: 100, model: gemini-embedding-1.0
+Please retry in 52.861166876s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/embed_content_free_tier_requests"
+  quota_id: "EmbedContentRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-embedding-1.0"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 100
+}
+, retry_delay {
+  seconds: 52
+}
+]
+      Chờ 40s rồi thử lại...
+✅ FAISS vectorstore đã sẵn sàng.
+[01] [prompt-v2] What are the three main types of machine learning?...
+[02] [prompt-v2] What is overfitting in machine learning?...
+[03] [prompt-v1] Explain the bias-variance tradeoff....
+[04] [prompt-v1] How does regularization prevent overfitting?...
+[05] [prompt-v2] What is cross-validation?...
+[06] [prompt-v2] What is backpropagation?...
+[07] [prompt-v2] What are Convolutional Neural Networks primarily used f...
+[08] [prompt-v2] How do LSTM networks address the vanishing gradient pro...
+[09] [prompt-v1] What activation functions are commonly used in neural n...
+[10] [prompt-v2] What is the role of pooling layers in CNNs?...
+[11] [prompt-v1] What is the transformer architecture?...
+[12] [prompt-v1] What are word embeddings?...
+[13] [prompt-v2] What is transfer learning in NLP?...
+[14] [prompt-v1] How does BERT handle language understanding?...
+[15] [prompt-v2] What is self-attention in transformers?...
+[16] [prompt-v1] What is GPT and how is it trained?...
+[17] [prompt-v2] What is instruction tuning?...
+[18] [prompt-v2] What is RLHF?...
+[19] [prompt-v1] What is chain-of-thought prompting?...
+[20] [prompt-v2] What is the context length of GPT-4?...
+[21] [prompt-v1] What is Retrieval-Augmented Generation?...
+[22] [prompt-v1] What are the main components of a RAG pipeline?...
+[23] [prompt-v2] What is dense retrieval?...
+[24] [prompt-v1] Why is chunking strategy important in RAG?...
+[25] [prompt-v2] What advanced RAG techniques exist beyond basic retriev...
+[26] [prompt-v1] What are vector databases used for?...
+[27] [prompt-v2] What is FAISS?...
+[28] [prompt-v2] How do text embeddings capture semantic meaning?...
+[29] [prompt-v2] What is HNSW?...
+[30] [prompt-v2] What is hybrid search in vector databases?...
+[31] [prompt-v2] What is LangChain?...
+[32] [prompt-v2] What is LangChain Expression Language (LCEL)?...
+[33] [prompt-v1] What is LangGraph?...
+[34] [prompt-v2] What memory types does LangChain support?...
+[35] [prompt-v1] What are LangChain retrievers?...
+[36] [prompt-v2] What is LangSmith?...
+[37] [prompt-v2] What information do LangSmith traces capture?...
+[38] [prompt-v1] What is the LangSmith Prompt Hub?...
+[39] [prompt-v2] How does LangSmith help monitor production LLM applicat...
+[40] [prompt-v2] What are LangSmith datasets used for?...
+[41] [prompt-v2] What is RAGAS?...
+[42] [prompt-v1] How does RAGAS compute faithfulness?...
+[43] [prompt-v2] What is answer relevancy in RAGAS?...
+[44] [prompt-v2] What is context recall in RAGAS?...
+[45] [prompt-v1] What inputs does RAGAS evaluation require?...
+[46] [prompt-v2] What is Guardrails AI?...
+[47] [prompt-v1] What is PII and why is it important to detect in LLM re...
+[48] [prompt-v1] What does structured output validation ensure?...
+[49] [prompt-v2] What is Constitutional AI?...
+[50] [prompt-v2] What are common AI safety concerns with LLMs?...
+
+📊 Routing: V1=19 câu | V2=31 câu | Tổng=50
+✅ Bước 2 hoàn thành! Kiểm tra Prompt Hub và traces trên LangSmith.
